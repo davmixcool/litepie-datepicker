@@ -66,13 +66,13 @@ const baseConfig = {
 const external = [
   // list external dependencies, exactly the way it is written in the import statement.
   // eg. 'jquery'
+  'vue',
   'dayjs',
   'dayjs/plugin/localeData',
   'dayjs/plugin/localizedFormat',
   'dayjs/plugin/isToday',
   'dayjs/plugin/isBetween',
-  'dayjs/plugin/duration',
-  '@vue/composition-api'
+  'dayjs/plugin/duration'
 ];
 
 // UMD/IIFE shared settings: output.globals
@@ -80,13 +80,13 @@ const external = [
 const globals = {
   // Provide global variable names to replace your external imports
   // eg. jquery: '$'
+  vue: 'Vue',
   dayjs: 'dayjs',
   'dayjs/plugin/localeData': 'localeData',
   'dayjs/plugin/localizedFormat': 'localizedFormat',
   'dayjs/plugin/isToday': 'isToday',
   'dayjs/plugin/isBetween': 'isBetween',
-  'dayjs/plugin/duration': 'duration',
-  '@vue/composition-api': 'vueCompositionApi'
+  'dayjs/plugin/duration': 'duration'
 };
 
 // Customize configs for individual targets

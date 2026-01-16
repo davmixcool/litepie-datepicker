@@ -1,4 +1,4 @@
-import { isReactive, isReadonly } from '@vue/composition-api';
+import { isReactive, isReadonly } from 'vue';
 
 export const usePreviousDate = date => {
   const display = [];

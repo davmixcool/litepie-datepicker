@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import { inject } from '@vue/composition-api';
+import { inject } from 'vue';
 
 export default {
   name: 'LitepieShortcut',

@@ -55,7 +55,7 @@
 </template>
 
 <script>
-import { defineComponent, inject } from '@vue/composition-api';
+import { defineComponent, inject } from 'vue';
 
 export default defineComponent({
   name: 'LitepieCalendar',

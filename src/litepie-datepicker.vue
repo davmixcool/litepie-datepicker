@@ -233,7 +233,7 @@ import {
   onMounted,
   watchEffect,
   watch
-} from '@vue/composition-api';
+} from 'vue';
 import {
   useCurrentDate,
   useDisableDate,
