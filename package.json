@@ -1,6 +1,6 @@
 {
   "name": "@davmixcool/litepie-datepicker",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A date range picker component for Vue.js and Tailwind CSS, dependent to day.js",
   "main": "dist/litepie-datepicker.ssr.js",
   "browser": "dist/litepie-datepicker.esm.js",
@@ -24,6 +24,11 @@
   },
   "contributors": [
     {
+      "name": "David Oti",
+      "email": "hello@davidoti.com",
+      "url": "https://github.com/davmixcool"
+    },
+    {
       "name": "kenhyuwa",
       "email": "wahyu.dhiraashandy8@gmail.com",
       "url": "https://github.com/kenhyuwa"
@@ -31,14 +36,14 @@
   ],
   "license": "MIT",
   "private": false,
-  "homepage": "https://litepie.com",
+  "homepage": "https://github.com/davmixcool/litepie-datepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vinayakkulkarni/litepie-datepicker.git"
+    "url": "https://github.com/davmixcool/litepie-datepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/vinayakkulkarni/litepie-datepicker/issues",
-    "email": "wahyu.dhiraashandy8@gmail.com"
+    "url": "https://github.com/davmixcool/litepie-datepicker/issues",
+    "email": "hello@davidoti.com"
   },
   "sideEffects": false,
   "scripts": {
